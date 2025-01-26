@@ -25,7 +25,10 @@ function App() {
       .then(data => {
         setRecipes(data.recipes); 
         setFilteredRecipes(data.recipes); 
-        setLoading(false);
+        
+        setTimeout(() => {
+          setLoading(false); 
+        }, 2000); 
       })
       .catch(error => {
         setError(error.message); 
@@ -34,9 +37,7 @@ function App() {
   }, []);
 
   if (loading) {
-    return (
-        <Loading/>
-    );
+    return <Loading />;
   }
 
   if (error) {
