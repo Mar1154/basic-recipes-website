@@ -12,7 +12,7 @@
     background: linear-gradient(
         rgba(0, 0, 0, 0.4), 
         rgba(0, 0, 0, 0.5)), 
-        url(images/image-1.png);
+        url('/images/image-1.png');
     background-size: cover;
     background-position: center;
 }
