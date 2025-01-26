@@ -1,0 +1,33 @@
+.marquee {
+    background-color: var(--black-2);
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    position: relative;
+    color: var(--white-1);
+}
+
+.marquee-content {
+    position: relative;
+    display: inline-block;
+    animation: scroll 10s linear infinite;
+}
+
+.marquee-content span {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    font-size: 2rem; 
+}
+
+
+@keyframes scroll {
+from {
+    transform: translateX(100%);
+}
+to {
+    transform: translateX(-100%);
+}
+}
+

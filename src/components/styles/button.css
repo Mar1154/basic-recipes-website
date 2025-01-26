@@ -1,0 +1,27 @@
+button {
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover {
+    filter: brightness(1.1);
+}
+
+button:active {
+    filter: brightness(0.95);
+}
+
+.recipe-btn {
+    background-color: var(--green-2);
+    width: 90%;
+    margin-top: 1rem;
+    padding: 0.8rem 1rem;
+    border-radius: 32px;
+}

@@ -1,0 +1,180 @@
+.tab-container {
+    margin: 64px 128px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab-list {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+.filter-icon-container span {
+    margin-top: 8px;
+    font-size: 2.5rem;
+    color: var(--black-1);
+}
+
+.tab-dropdown {
+    width: 210px;
+    border: 2px solid var(--black-2);
+    border-radius: 24px;
+    background-color: var(--white-1);
+    color: var(--black-2);
+    padding: 10px 36px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+
+    appearance: none;
+    -webkit-appearance: none; 
+    background-image: url('https://cdn-icons-png.flaticon.com/256/484/484057.png'); /* Add custom arrow icon */
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+    background-size: 12px; 
+}
+
+.tab-dropdown:hover {
+    filter: brightness(90%);
+}
+
+.tab-option {
+    background-color: var(--white-1);
+    color: var(--black-1);
+    text-align: left;
+}
+
+.search-container {
+    display: flex;
+}
+
+.search-container input {
+    border: 2px solid var(--black-2);
+    border-radius: 24px 0 0 24px;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.search-container button {
+    border: 2px solid var(--black-2);
+    border-radius: 0 24px 24px 0;
+    background-color: var(--black-2);
+    color: var(--white-1);
+    padding: 8px 28px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1440px) {
+    .tab-container {
+        margin: 64px 96px;
+    }
+    
+    .tab-dropdown {
+        width: 180px;
+        padding: 10px 24px;
+        font-size: 1rem;
+    }
+
+    .search-container input {
+        padding: 12px 16px;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .tab-container {
+        margin: 64px 32px;
+    }
+
+    .tab-dropdown {
+        width: 160px;
+        padding: 10px 16px;
+        font-size: 0.8rem;
+    }
+
+    .search-container input {
+        padding: 8px 12px;
+    }
+
+    .search-container button {
+        padding: 8px 16px;
+        font-size: 0.4rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .tab-container {
+        margin: 48px 24px;
+        align-items: center;
+    }
+
+    .tab-list {
+        gap: 0;
+    }
+
+    .filter-icon-container span {
+        display: none;
+    }
+
+    .tab-dropdown {
+        width: 120px;
+        padding: 10px 16px;
+        font-size: 0.6rem;
+    }
+
+    .search-container input {
+        width: 120px;
+        padding: 8px 12px;
+        font-size: 0.7rem;
+    }
+
+    .search-container button {
+        padding: 4px 10px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .tab-container {
+        margin: 36px 16px;
+    }
+
+    .tab-dropdown {
+        width: 120px;
+        padding: 10px 12px;
+    }
+
+    .search-container input {
+        width: 100px;
+        padding: 8px 10px;
+    }
+
+    .search-container button {
+        padding: 4px 8px;
+    }   
+
+    .material-symbols-outlined {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .tab-dropdown {
+        width: 112px;
+        padding: 8px 10px;
+    }
+
+    .search-container button {
+        padding: 4px 6px;
+    }
+
+    
+}
+
+
+
