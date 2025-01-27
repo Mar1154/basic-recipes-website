@@ -6,7 +6,6 @@
     min-height: 720px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    grid-auto-rows: 520px;
     align-items: start;
     gap: 2rem;
     padding: 0 192px;
@@ -130,10 +129,6 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .recipe-cards {
-        grid-auto-rows: 480px;
-    }
-
     .card {
         height: 480px;
     }
@@ -152,7 +147,6 @@
     .recipe-cards {
         padding: 0 64px;
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-        grid-auto-rows: 400px;
         gap: 1.2rem;
     }
 
@@ -198,7 +192,6 @@
     .recipe-cards {
         padding: 0 16px;
         grid-template-columns: repeat(auto-fill, minmax(128px, 1fr));
-        grid-auto-rows: 320px;
         gap: 1rem;
     }
 
@@ -258,10 +251,6 @@
 }
 
 @media screen and (max-width: 320px) {
-    .recipe-cards {
-        grid-auto-rows: 280px;
-    }
-
     .card {
         height: 280px;
     }

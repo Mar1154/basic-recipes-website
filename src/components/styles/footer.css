@@ -45,15 +45,6 @@ footer {
     padding-top: 2px;
 }
 
-.custom-upwork-icon {
-    background-image: url('https://www.shareicon.net/data/256x256/2017/02/24/879424_upwork_512x512.png');
-    display: inline-block;
-    width: 36px;
-    height: 36px; 
-    background-size: cover;
-    filter: invert(0.68);
-}
-
 @media screen and (max-width: 425px) {
     footer {
         height: auto;
@@ -76,8 +67,4 @@ footer {
         font-size: 1.4rem;
     }
 
-    .custom-upwork-icon {
-        width: 24px;
-        height: 24px;
-    }
 }

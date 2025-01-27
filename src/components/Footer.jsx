@@ -11,8 +11,8 @@ export function Footer() {
                 <a href="https://www.linkedin.com/in/marion-bailey-0803ba345/">
                     <i className="fab fa-linkedin"></i>
                 </a>
-                <a href="https://www.upwork.com/freelancers/~01393b34980572dd70">
-                    <i className="custom-upwork-icon"></i>
+                <a href="https://codepen.io/Mar1154">
+                    <i className="fab fa-codepen"></i>
                 </a>
             </div>
         </footer>
