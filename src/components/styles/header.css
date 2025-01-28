@@ -10,7 +10,7 @@ header nav {
     float: right;
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 32px;
-    padding: 1rem 3rem;
+    padding: 1rem 4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,7 +36,7 @@ header nav ul li a {
     }
 
     header nav {
-        padding: 1rem 2rem;
+        padding: 1rem 4rem;
     }
 
     header nav ul {
@@ -45,6 +45,25 @@ header nav ul li a {
 
     header nav ul li a {
         font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    header {
+        width: calc(100% - 128px);
+        padding: 24px 64px;
+    }
+
+    header nav {
+        padding: 0.8rem 3rem;
+    }
+
+    header nav ul {
+        gap: 2.5rem;
+    }
+
+    header nav ul li a {
+        font-size: 0.8rem;
     }
 }
 
@@ -83,9 +102,9 @@ header nav ul li a {
 
 @media screen and (max-width: 425px) {
     header {
-        width: calc(100% - 72px);
+        width: calc(100% - 128px);
         margin-top: 16px;
-        padding: 0 36px;
+        padding: 0 64px;
     }
 
     header nav {
@@ -100,6 +119,22 @@ header nav ul li a {
 
     header nav ul li a {
         font-size: 0.6rem;
+    }
+    
+}
+
+@media screen and (max-width: 375px) {
+    header {
+        width: calc(100% - 72px);
+        padding: 0 36px;
+    }
+
+    header nav ul {
+        gap: 2.5rem;
+    }
+
+    header nav ul li a {
+        font-size: 0.5rem;
     }
     
 }
